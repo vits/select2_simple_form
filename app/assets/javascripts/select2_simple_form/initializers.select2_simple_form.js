@@ -107,7 +107,7 @@ var Select2SimpleForm = (function($) {
   }
 
   // Load the plugin
-  var eventToListen = (window.Turbolinks === undefined) ? 'ready' : 'page:change';
+  var eventToListen = (window.Turbolinks === undefined) ? 'ready' : 'page:change turbolinks:load';
   $(document).on(eventToListen, initializeSelect2SimpleForm);
 
   return {
