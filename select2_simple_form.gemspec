@@ -9,9 +9,9 @@ require "select2_simple_form/version"
 Gem::Specification.new do |s|
   s.name        = "select2_simple_form"
   s.version     = Select2SimpleForm::VERSION
-  s.authors     = ['Lautaro Nahuel De León', 'Nahuel Cuesta Luengo', 'Ivan Karl']
-  s.email       = ['laudleon@gmail.com', 'nahuelcuestaluengo@gmail.com', 'ivan6258@gmail.com']
-  s.homepage    = 'https://github.com/lndl/select2_simple_form'
+  s.authors     = ['Lautaro Nahuel De León', 'Nahuel Cuesta Luengo', 'Ivan Karl', 'Vitauts Stočka']
+  s.email       = ['laudleon@gmail.com', 'nahuelcuestaluengo@gmail.com', 'ivan6258@gmail.com', 'vs@vits.lv']
+  s.homepage    = 'https://github.com/vits/select2_simple_form'
   s.summary     = "Select2 inputs for SimpleForm"
   s.description = "Select2 inputs for SimpleForm"
 
@@ -19,5 +19,4 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", '> 4.0.0'
-  s.add_dependency 'select2-rails', '~> 3.5.2'
 end
